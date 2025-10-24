@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Michael Amoateng Boanerge</title>
+    <meta name="description" content="Get in touch with Michael Amoateng Boanerge for web development projects, template purchases, or consultation. Fast response guaranteed.">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo" aria-label="Michael Boanerge - Home">
+                <a href="../index.html" style="text-decoration: none; color: inherit;">MB</a>
+            </div>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="../index.html" role="menuitem">Home</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About</a></li>
+                <li role="none"><a href="services.html" role="menuitem">Services</a></li>
+                <li role="none"><a href="portfolio.html" role="menuitem">Work</a></li>
+                <li role="none"><a href="templates.html" role="menuitem">Templates</a></li>
+                <li role="none"><a href="https://boanerge-dev.github.io/portfolio/" role="menuitem" target="_blank">Resume </a></li>
+                <li role="none"><a href="contact.html" class="cta-nav" role="menuitem">Hire Me</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="contact-hero" id="main-content">
+        <div class="container">
+            <h1>Let's Work Together</h1>
+            <p>Ready to start your project? Get in touch and let's discuss how I can help you.</p>
+        </div>
+    </section>
+
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Send Me a Message</h2>
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <input type="hidden" name="_subject" value="New contact from portfolio website">
+                        <input type="hidden" name="_replyto" value="boanerge.dev@gmail.com">
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="landing-page">Landing Page ($300-500)</option>
+                                <option value="portfolio-site">Portfolio Website ($800-1200)</option>
+                                <option value="educational-site">Educational Website ($400-600)</option>
+                                <option value="website-fix">Website Fixes ($50-100/hour)</option>
+                                <option value="template">HTML Template Purchase</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..." required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Other Ways to Connect</h2>
+                    <div class="contact-method">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:boanerge@gmail.com">boanerge.dev@gmail.com</a></p>
+                    </div>
+                    <div class="contact-method">
+                        <h3>📞 Phone/WhatsApp</h3>
+                        <p><a href="tel:+233553915879">+233 55 391 5879</a></p>
+                    </div>
+                    <div class="contact-method">
+                        <h3>💼 Gumroad</h3>
+                        <p>Check out my templates and digital products</p>
+                        <a href="templates.html">View Templates →</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>⏰ Response Time</h3>
+                        <p>I typically respond within 24 hours</p>
+                    </div>
+
+                    <div class="faq">
+                        <h3>Common Questions</h3>
+                        <div class="faq-item">
+                            <h4>How long does a project take?</h4>
+                            <p>Landing pages: 1-2 weeks. Portfolio sites: 2-3 weeks. Educational sites: 2-4 weeks.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Do you offer support after launch?</h4>
+                            <p>Yes, 30 days of free support included with every project. Ongoing maintenance available.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>What's your availability?</h4>
+                            <p>I'm currently accepting new projects while studying. Let's discuss your timeline.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Michael Amoateng Boanerge. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="mailto:boanerge.dev@gmail.com" aria-label="Email">Email</a>
+                    <a href="tel:+233553915879" aria-label="Phone">Phone</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
